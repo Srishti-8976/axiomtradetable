@@ -8,7 +8,7 @@ The project demonstrates real-time data updates, smooth animations, and accessib
 ## 🚀 Live Deployment
 
 🔗 **Website:** [https://axiomtradetablefrontend-2t63z1iug-srishti-8976s-projects.vercel.app](https://axiomtradetablefrontend-2t63z1iug-srishti-8976s-projects.vercel.app)  
-📦 **GitHub Repository:** [https://github.com/Srishti-8976/axiomtradetable_frontend](https://github.com/Srishti-8976/axiomtradetable_frontend)  
+📦 **GitHub Repository:** [https://github.com/Srishti-8976/axiomtradetable](https://github.com/Srishti-8976/axiomtradetable)  
 💻 **Development Environment (Codespaces):** [https://bookish-memory-97grgj94pw74c75rx.github.dev](https://bookish-memory-97grgj94pw74c75rx.github.dev)
 
 ---
