@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌐 Axiom Trade Token Table
 
-## Getting Started
+A responsive **Token Discovery Dashboard** built using **Next.js 14**, **TypeScript**, and **Tailwind CSS**, replicating the Axiom Trade Pulse table experience.  
+The project demonstrates real-time data updates, smooth animations, and accessible UI design — optimized for both desktop and mobile screens.
 
-First, run the development server:
+---
+
+## 🚀 Live Deployment
+
+🔗 **Website:** [https://axiomtradetablefrontend-2t63z1iug-srishti-8976s-projects.vercel.app](https://axiomtradetablefrontend-2t63z1iug-srishti-8976s-projects.vercel.app)  
+📦 **GitHub Repository:** [https://github.com/Srishti-8976/axiomtradetable_frontend](https://github.com/Srishti-8976/axiomtradetable_frontend)  
+💻 **Development Environment (Codespaces):** [https://bookish-memory-97grgj94pw74c75rx.github.dev](https://bookish-memory-97grgj94pw74c75rx.github.dev)
+
+---
+
+## 🧩 Overview
+
+This project reproduces the **Axiom Trade Pulse** interface — a modern crypto token table showing live price movements, percentage changes, and market status.  
+It includes features like sorting, dynamic updates, and subtle transitions that mimic real trading dashboards.
+
+The focus is on:
+- ⚡ **Performance:** Fast and lightweight (Next.js Turbopack build)
+- 🎨 **Design Precision:** Pixel-perfect visual accuracy (≤ 2px diff)
+- 🔍 **Accessibility:** Keyboard navigation & tooltips via Radix UI
+- 🧠 **Reusability:** Built with atomic component structure
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Framework | **Next.js 14 (App Router)** |
+| Language | **TypeScript** |
+| Styling | **Tailwind CSS** |
+| State Management | **Redux Toolkit** |
+| Data Fetching | **React Query (TanStack)** |
+| UI Components | **Radix UI**, **Framer Motion** |
+| Testing | **Playwright** (Chromium, Firefox, WebKit) |
+| Performance Audit | **Lighthouse CI** |
+| Hosting | **Vercel** |
+
+---
+
+## ⚙️ Local Setup
+
+Clone and run the project locally:
 
 ```bash
+# Clone the repo
+git clone https://github.com/Srishti-8976/axiomtradetable_frontend.git
+
+# Move into folder
+cd axiomtradetable_frontend/frontend
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
